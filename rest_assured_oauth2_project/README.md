@@ -1,0 +1,1 @@
+# reset-assured-project-test
