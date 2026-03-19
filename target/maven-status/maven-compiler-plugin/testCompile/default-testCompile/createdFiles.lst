@@ -1,0 +1,8 @@
+pojo\LoginRequest.class
+pojo\User$UserBuilder.class
+utils\LogRestAssuredFilter.class
+tests\UserLoginTest.class
+utils\TokenManager.class
+tests\UserRegistrationTest.class
+pojo\User.class
+utils\ConfigLoader.class

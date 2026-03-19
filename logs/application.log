@@ -1,0 +1,261 @@
+2026-03-18 15:14:18 [main] INFO  tests.UserLoginTest - Setting up REST Assured base URI and logging filters for UserLoginTest
+2026-03-18 15:14:19 [main] INFO  tests.UserLoginTest - Starting testUserLoginStandalone flow
+2026-03-18 15:14:19 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/login?usrname=test&password=uuuu
+2026-03-18 15:14:19 [main] INFO  utils.LogRestAssuredFilter - Request Method: GET
+2026-03-18 15:14:19 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:21 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:21 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:23 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+X-Expires-After=Wed Mar 18 14:14:23 UTC 2026
+X-Rate-Limit=5000
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:21 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1773839663031"
+}
+2026-03-18 15:14:21 [main] INFO  tests.UserRegistrationTest - Setting up REST Assured base URI and logging filters
+2026-03-18 15:14:21 [main] INFO  tests.UserRegistrationTest - Starting testUserRegistration flow with username: testuser_6e8f9f9d
+2026-03-18 15:14:21 [main] INFO  tests.UserRegistrationTest - Creating User POJO with test data
+2026-03-18 15:14:21 [main] INFO  tests.UserRegistrationTest - Executing POST request to /user endpoint
+2026-03-18 15:14:22 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user
+2026-03-18 15:14:22 [main] INFO  utils.LogRestAssuredFilter - Request Method: POST
+2026-03-18 15:14:22 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+2026-03-18 15:14:22 [main] INFO  utils.LogRestAssuredFilter - Request Body: {"id":0,"username":"testuser_6e8f9f9d","firstName":"John","lastName":"Doe","email":"john.doe@example.com","password":"secret123","phone":"1234567890","userStatus":0}
+2026-03-18 15:14:22 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user
+2026-03-18 15:14:22 [main] INFO  utils.LogRestAssuredFilter - Request Method: POST
+2026-03-18 15:14:22 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+2026-03-18 15:14:22 [main] INFO  utils.LogRestAssuredFilter - Request Body: {"id":0,"username":"testuser_6e8f9f9d","firstName":"John","lastName":"Doe","email":"john.doe@example.com","password":"secret123","phone":"1234567890","userStatus":0}
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:24 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "9223372036854775807"
+}
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:24 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "9223372036854775807"
+}
+2026-03-18 15:14:23 [main] INFO  tests.UserRegistrationTest - User registration test completed successfully
+2026-03-18 15:14:23 [main] INFO  tests.UserRegistrationTest - Starting testGetUserByUsername flow
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/testuser_6e8f9f9d
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Request Method: GET
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/testuser_6e8f9f9d
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Request Method: GET
+2026-03-18 15:14:23 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:26 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "id": 9223372036854775807,
+    "username": "testuser_6e8f9f9d",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "password": "secret123",
+    "phone": "1234567890",
+    "userStatus": 0
+}
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:26 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "id": 9223372036854775807,
+    "username": "testuser_6e8f9f9d",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "password": "secret123",
+    "phone": "1234567890",
+    "userStatus": 0
+}
+2026-03-18 15:14:24 [main] INFO  tests.UserRegistrationTest - testGetUserByUsername completed successfully
+2026-03-18 15:14:24 [main] INFO  tests.UserRegistrationTest - Starting testUpdateUser flow
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/testuser_6e8f9f9d
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Request Method: PUT
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Request Body: {"id":0,"username":"testuser_6e8f9f9d","firstName":"John Updated","lastName":"Doe","email":"john.updated@example.com","password":"secret123","phone":"1234567890","userStatus":1}
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/testuser_6e8f9f9d
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Request Method: PUT
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+2026-03-18 15:14:24 [main] INFO  utils.LogRestAssuredFilter - Request Body: {"id":0,"username":"testuser_6e8f9f9d","firstName":"John Updated","lastName":"Doe","email":"john.updated@example.com","password":"secret123","phone":"1234567890","userStatus":1}
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:27 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "9223372036854775807"
+}
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:27 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "9223372036854775807"
+}
+2026-03-18 15:14:25 [main] INFO  tests.UserRegistrationTest - testUpdateUser completed successfully
+2026-03-18 15:14:25 [main] INFO  tests.UserRegistrationTest - Starting testLoginUser flow
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/login?username=testuser_6e8f9f9d&password=secret123
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Request Method: GET
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/login?username=testuser_6e8f9f9d&password=secret123
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Request Method: GET
+2026-03-18 15:14:25 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:28 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+X-Expires-After=Wed Mar 18 14:14:28 UTC 2026
+X-Rate-Limit=5000
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1773839668226"
+}
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:28 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+X-Expires-After=Wed Mar 18 14:14:28 UTC 2026
+X-Rate-Limit=5000
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1773839668226"
+}
+2026-03-18 15:14:26 [main] INFO  tests.UserRegistrationTest - testLoginUser completed successfully
+2026-03-18 15:14:26 [main] INFO  tests.UserRegistrationTest - Starting testLogoutUser flow
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/logout
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Request Method: GET
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/logout
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Request Method: GET
+2026-03-18 15:14:26 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:29 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:29 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+2026-03-18 15:14:28 [main] INFO  tests.UserRegistrationTest - testLogoutUser completed successfully
+2026-03-18 15:14:28 [main] INFO  tests.UserRegistrationTest - Starting testDeleteUser flow
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/testuser_6e8f9f9d
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Request Method: DELETE
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Request URI: https://petstore.swagger.io/v2/user/testuser_6e8f9f9d
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Request Method: DELETE
+2026-03-18 15:14:28 [main] INFO  utils.LogRestAssuredFilter - Request Headers: Accept=application/json, application/javascript, text/javascript, text/json
+2026-03-18 15:14:29 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:29 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:30 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:29 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "testuser_6e8f9f9d"
+}
+2026-03-18 15:14:29 [main] INFO  utils.LogRestAssuredFilter - Response Status Code: 200
+2026-03-18 15:14:29 [main] INFO  utils.LogRestAssuredFilter - Response Headers: Date=Wed, 18 Mar 2026 13:14:30 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+2026-03-18 15:14:29 [main] INFO  utils.LogRestAssuredFilter - Response Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "testuser_6e8f9f9d"
+}
