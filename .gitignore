@@ -1,0 +1,28 @@
+# Maven build output
+target/
+
+# Log files
+logs/
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TestNG / Surefire reports (generated)
+**/surefire-reports/
+
+# Compiled class files
+*.class
+
+# JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
