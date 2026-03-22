@@ -4,6 +4,8 @@ target/
 # Log files
 logs/
 *.log
+maven.log
+
 
 # IDE files
 .idea/
